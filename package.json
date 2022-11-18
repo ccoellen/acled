@@ -1,0 +1,19 @@
+{
+  "name": "acled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/marked": "^4.0.7",
+    "vite": "^3.2.4"
+  },
+  "dependencies": {
+    "marked": "^4.2.2"
+  }
+}

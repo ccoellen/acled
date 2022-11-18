@@ -1,0 +1,34 @@
+name: 'Build and deploy to Pages'
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - uses: actions/setup-node@v2
+          with:
+            node-version: '18'
+        - run: npm i -g pnpm
+        - run: pnpm install
+        - run: pnpm vite build
+        - name: Upload artifact
+          uses: actions/upload-pages-artifact@v1
+          with:
+            path: ./dist
+
+    deploy:
+      needs: build
+      permissions:
+        pages: write
+        id-token: write
+      environment:
+        name: github-pages
+      runs-on: ubuntu-latest
+      steps:
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v1
