@@ -1,0 +1,9 @@
+header {
+    display: flex;
+}
+
+header a {
+    padding: 1rem;
+    display: block;
+    text-decoration: none;
+}
