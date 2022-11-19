@@ -4,4 +4,9 @@
         padding: 0;
         box-shadow: none;
     }
+
+    img {
+        width: 100%;
+        margin: 0;
+    }
 }
