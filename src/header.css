@@ -2,16 +2,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: center;
-}
-
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-    }
-
-    header a {
-        padding: 0.5rem;
-    }
+    transition: transform 0.5s;
 }
 
 header a {
@@ -20,3 +11,37 @@ header a {
     text-decoration: none;
     color: #000;
 }
+
+#menu-button {
+    display: none;
+}
+
+header.open-menu {
+    transform: translateY(0%);
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        transform: translateY(-200%);
+        overflow: hidden;
+        position: fixed;
+        background-color: white;
+        padding-bottom: 1rem;
+    }
+
+    header a {
+        padding: 0.5rem;
+    }
+
+    #menu-button {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-top: 0.5rem;
+        cursor: pointer;
+    }
+}
+
