@@ -17,21 +17,23 @@ header a {
 }
 
 header.open-menu {
-    transform: translateY(0%);
+    transform: translateX(0%);
 }
 
 @media (max-width: 600px) {
     header {
         flex-direction: column;
-        transform: translateY(-200%);
+        transform: translateX(-200%);
         overflow: hidden;
         position: fixed;
         background-color: white;
         padding-bottom: 1rem;
+        left: 0;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
     header a {
-        padding: 0.5rem;
+        padding: 1rem 2em;
     }
 
     #menu-button {
