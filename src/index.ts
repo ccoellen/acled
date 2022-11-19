@@ -7,25 +7,24 @@ import { marked } from 'marked';
 import './style.css';
 import './header.css';
 
+const page = new URLSearchParams(window.location.search).get('page');
 
-const path = window.location.pathname;
-
-if (path === '/acled/') {
+if (!page) {
   document.getElementById('content').innerHTML = marked.parse(homeSource);
 }
 
-if (path === '/acled/interviews') {
+if (page === 'interviews') {
   document.getElementById('content').innerHTML = marked.parse(interviewSource);
 }
 
-if (path === '/acled/methodology') {
+if (page === 'methodology') {
   document.getElementById('content').innerHTML = marked.parse(methodologySource);
 }
 
-if (path === '/acled/synthesis') {
+if (page === 'synthesis') {
   document.getElementById('content').innerHTML = marked.parse(synthesisSource);
 }
 
-if (path === '/acled/criticisms') {
+if (page === 'criticisms') {
   document.getElementById('content').innerHTML = marked.parse(criticismSource);
 }
