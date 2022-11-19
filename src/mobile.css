@@ -1,5 +1,7 @@
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     body {
         width: 90%;
+        padding: 0;
+        box-shadow: none;
     }
 }
