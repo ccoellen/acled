@@ -9,22 +9,19 @@ import './header.css';
 
 const page = new URLSearchParams(window.location.search).get('page');
 
-if (!page) {
-  document.getElementById('content').innerHTML = marked.parse(homeSource);
+function getContentForCurrentPage(page?: string) {
+  switch (page) {
+    case 'interviews':
+      return interviewSource;
+    case 'methodology':
+      return methodologySource;
+    case 'criticisms':
+      return criticismSource;
+    case 'synthesis':
+      return synthesisSource;
+    default:
+      return homeSource;
+  }
 }
 
-if (page === 'interviews') {
-  document.getElementById('content').innerHTML = marked.parse(interviewSource);
-}
-
-if (page === 'methodology') {
-  document.getElementById('content').innerHTML = marked.parse(methodologySource);
-}
-
-if (page === 'synthesis') {
-  document.getElementById('content').innerHTML = marked.parse(synthesisSource);
-}
-
-if (page === 'criticisms') {
-  document.getElementById('content').innerHTML = marked.parse(criticismSource);
-}
+document.getElementById('content').innerHTML = marked.parse(getContentForCurrentPage(page));
