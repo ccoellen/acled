@@ -9,7 +9,9 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 60%;
+    margin: 4rem auto;
+    display: block;
 }
 
 iframe {
