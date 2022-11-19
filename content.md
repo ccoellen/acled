@@ -29,11 +29,10 @@ des zones de conflits et des acteurs en présence.
 
 A l’origine, la base de données ne prenait en compte que six pays d’Afrique centrale et trois Etats Ouest africains.
 Très vite, elle s’est élargie pour couvrir les 50 pays les moins développés, et a été rendue accessible au public en
-
 2009. Depuis 2014, le projet s’est transformé en organisation non-lucrative américaine et a étendu son terrain d’enquête
-      jusqu’à atteindre tous les pays de la planète depuis 2022. Désormais, ACLED compte plus de 200 collaborateurs
-      basés dans plus de 50 pays, qui transmettent en temps réel les informations relatives aux conflits obtenues via
-      différentes sources. Grâce à ces informations, la base de données est mise à jour toutes les semaines.
+jusqu’à atteindre tous les pays de la planète depuis 2022. Désormais, ACLED compte plus de 200 collaborateurs basés dans
+plus de 50 pays, qui transmettent en temps réel les informations relatives aux conflits obtenues via différentes
+sources. Grâce à ces informations, la base de données est mise à jour toutes les semaines.
 
 La plupart des événements codés par ACLED sont définis comme des interactions violentes entre deux groupes politiques
 armés et organisés à un moment et lieu particuliers. Les informations sur ces évènements sont composées de leur date, du
