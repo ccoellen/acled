@@ -9,6 +9,22 @@ body {
     padding: 1rem 5rem;
 }
 
+#home-hero {
+    width: 80%;
+    margin: 0 auto;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#home-hero h1 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    padding: 0;
+}
+
 footer {
     bottom: 0;
     padding: 2rem 0;

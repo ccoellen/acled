@@ -10,6 +10,7 @@ header a {
     display: block;
     text-decoration: none;
     color: #000;
+    outline: none;
 }
 
 header a:after {
@@ -23,8 +24,9 @@ header a:after {
     transition: transform 0.25s;
 }
 
-header a:hover:after {
+header a:hover:after, a:focus:after {
     transform: scaleX(1);
+    outline: none;
 }
 
 #menu-button {

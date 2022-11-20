@@ -1,25 +1,35 @@
-import homeSource from '../home.md?raw';
-import methodologySource from '../methodology.md?raw';
-import interviewSource from '../interviews.md?raw';
-import synthesisSource from '../synthesis.md?raw';
-import criticismSource from '../criticisms.md?raw';
+import homeSource from '../content/home.md?raw';
+import homeHeroSource from '../content/home-hero.md?raw';
+import methodologySource from '../content/methodology.md?raw';
+import interviewSource from '../content/interviews.md?raw';
+import synthesisSource from '../content/synthesis.md?raw';
+import criticismSource from '../content/criticisms.md?raw';
 import { marked } from 'marked';
 
 const page = new URLSearchParams(window.location.search).get('page');
 
-function getContentForCurrentPage(page?: string) {
+
+function generateHtmlForHomepage() {
+  const heroHtmlElement = document.createElement('div');
+  heroHtmlElement.id = 'home-hero';
+  heroHtmlElement.innerHTML = marked.parse(homeHeroSource);
+  return heroHtmlElement.outerHTML + marked.parse(homeSource);
+}
+
+
+function getHtmlContentForCurrentPage(page?: string) {
   switch (page) {
     case 'interviews':
-      return interviewSource;
+      return marked.parse(interviewSource);
     case 'methodology':
-      return methodologySource;
+      return marked.parse(methodologySource);
     case 'criticisms':
-      return criticismSource;
+      return marked.parse(criticismSource);
     case 'synthesis':
-      return synthesisSource;
+      return marked.parse(synthesisSource);
     default:
-      return homeSource;
+      return generateHtmlForHomepage();
   }
 }
 
-document.getElementById('content').innerHTML = marked.parse(getContentForCurrentPage(page));
+document.getElementById('content').innerHTML = getHtmlContentForCurrentPage(page);
