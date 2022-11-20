@@ -4,9 +4,6 @@ import interviewSource from '../interviews.md?raw';
 import synthesisSource from '../synthesis.md?raw';
 import criticismSource from '../criticisms.md?raw';
 import { marked } from 'marked';
-import './style.css';
-import './mobile.css';
-import './header.css';
 
 const page = new URLSearchParams(window.location.search).get('page');
 
