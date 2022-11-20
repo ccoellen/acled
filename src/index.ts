@@ -8,6 +8,24 @@ import { marked } from 'marked';
 
 const page = new URLSearchParams(window.location.search).get('page');
 
+const renderer = {
+  image(href: string, title: string, text: string) {
+    let caption = false;
+    if (text.startsWith('caption: ')) {
+      caption = true;
+      text = text.replace('caption: ', '');
+    }
+    let html = `<figure><img src="${href}" alt="${text}" />`;
+    if (caption) {
+      html += `<figcaption>${text}</figcaption>`;
+    }
+    html += '</figure>';
+    return html;
+  }
+}
+
+marked.use({ renderer });
+
 
 function generateHtmlForHomepage() {
   const heroHtmlElement = document.createElement('div');

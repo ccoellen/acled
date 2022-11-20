@@ -82,12 +82,12 @@ Des événements considérés comme ne faisant pas partie d’un conflit, mais p
 
 Cette catégorisation n’est pas exclusive : certains événements peuvent ainsi être enregistrés dans plusieurs catégories.
 
-![Visualising types of violence](visualising_violence.jpg)
+![caption: Visualising types of violence](visualising_violence.jpg)
 
 On obtient dès lors plusieurs possibilités de visualisation de ces données, qui permettent une compréhension précise des
 évènements violents lors de conflits, comme le démontre l’exemple suivant sur les élections au Nigéria :
 
-![Nigeria Election violences](nigeria_election_violence.png)
+![caption: Election violences](nigeria_election_violence.png)
 
 Ainsi, ACLED a su s’imposer comme étant la base de données de référence en ce qui concerne les événements violents ayant
 lieu lors de conflits, notamment du fait de sa précision quant à la quantification du nombre de victimes et de son
