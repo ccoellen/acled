@@ -1,8 +1,12 @@
 @media (max-width: 1000px) {
     body {
         width: 90%;
-        padding: 0;
+        padding: 0 0 7rem;
         box-shadow: none;
+    }
+
+    footer {
+        width: calc(100% - 4rem);
     }
 
     img {
