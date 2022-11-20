@@ -1,18 +1,18 @@
 # Méthodologie
 
-## SOURCES
+## Sources
 Il existe 4 types de sources :
 1. Médias traditionnels, c'est-à -dire les médias nationaux, régionaux et internationaux régis par les principes journalistiques de vérification.
 2. Rapports des organismes internationaux et des ONG. Sous certaines conditions, les rapports des groupes impliqués dans le conflit peuvent également être inclus.
 3. Partenaires locaux qui collectent des informations « sur le terrain ».
 4. Nouveaux médias tels que Twitter, Telegram ou même WhatsApp. ACLED adopte une approche ciblée en établissant des relations directes avec les sources.
 
-## COLLECTE DES INFORMATIONS
+## Collecte des informations
 Dans un premier temps, ACLED crée une première liste de sources basée sur des sources populaires dans chaque pays. ACLED embauche des chercheurs ayant des compétences linguistiques pertinentes ainsi qu'une connaissance du contexte local dans l’objectif de cultiver cette liste. Ainsi, cette liste est par la suite complétée avec des rapports d’ONG qui opèrent dans la région et des comptes de médias sociaux vérifiés, par exemple. 
 La viabilité des sources est évaluée à travers l'expertise de partenaires locaux, d'experts nationaux, d'organisations locales ou d'universités de la région.
 Chaque source se voit attribuer une valeur afin de développer la variable SOURCE_SCALE. Ceci est ensuite utilisé pour déterminer le profil de chaque pays et voir quelle(s) source(s) ont tendance à couvrir certaines régions ou certains types de conflits et identifier les biais. Cela permet d’établir, une stratégie d'approvisionnement spécifique au pays est développée pour aider à combler les lacunes de chaque source.
  
-## CODAGE
+## Codage
 Lorsqu'un rapport ne précise pas si des décès se sont produits, ACLED attribue automatiquement l'estimation à 0 décès.  Par ailleurs, ACLED fait la distinction entre les « décès (fatalities) » et les « victimes (casualties) » et ne comptabilise que les décès (fatalities).  Par conséquent, si un rapport n'indique que des « victimes », ACLED assumera que tous les décès sont des blessés et codera donc 0 décès.
  
 Par ailleurs, si le rapport inclut une estimation telle que « dizaines » ou « centaines », ACLED s'appuie sur l'estimation la plus prudente, à savoir 10 pour « dizaines » ou encore 100 pour « centaines ».
@@ -32,13 +32,11 @@ Il est important de noter qu’ACLED définit un pays comme « en guerre » si u
 
 ![Screenshot (156)](https://user-images.githubusercontent.com/118550105/202865185-0dbb6180-ae5a-438a-ac4f-fcd5acd21f0d.png)
 
-
-
 Cependant, il y a également certains pays qui, bien que n'étant pas « en guerre », connaissent une violence importante. Ainsi, alors qu'un nombre inconnu de décès dans ces pays sont, en moyenne, codés par 3 décès, certains évènements dans ces pays peuvent être suffisamment violents pour justifier un codage de 10 décès.
 
 ![Screenshot (157)](https://user-images.githubusercontent.com/118550105/202865207-7ccb37dc-244f-4658-80cf-255c5aea816f.png)
 
-## ATTÉNUER LES BIAIS
+## Atténuer les biais
 
 ACLED estime que la seule augmentation du nombre de sources ne résout pas les biais, cela ne fait que reproduire ces tendances à plus grande échelle, en les exacerbant ainsi et les faisant persister sur le long terme. En d'autres termes, la quantité d'informations ne garantit pas la qualité.
 
