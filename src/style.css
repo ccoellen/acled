@@ -12,6 +12,11 @@ img {
     width: 60%;
     margin: 4rem auto;
     display: block;
+    cursor: zoom-in;
+}
+
+img:fullscreen {
+    cursor: auto;
 }
 
 iframe {
