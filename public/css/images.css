@@ -1,0 +1,19 @@
+figure {
+    width: 60%;
+    margin: 4rem auto;
+    display: block;
+    cursor: zoom-in;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure img {
+    width: 100%;
+    margin: 0;
+}
+
+img:fullscreen {
+    cursor: auto;
+}
