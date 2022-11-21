@@ -1,1 +1,1 @@
-# Synthesis
+# Synthèse
