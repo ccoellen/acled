@@ -1,1 +1,1 @@
-# Criticisms
+# Critiques
