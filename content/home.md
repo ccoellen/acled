@@ -1,6 +1,3 @@
-![caption: Visualisation de données d'ACLED par rapport aux fatalités dans les conflits par pays par an](https://user-images.githubusercontent.com/118550105/203336182-b1fd3e7f-1c21-4eae-9dd8-b1191f75895d.png)
-
-
 
 Lorsque le projet ACLED a été créé en 2005, d’autres types de codification des données de victimes de conflits
 existaient déjà: Doyle et Sambanis avaient par exemple dès 2005 utilisé la méthode statistique pour appuyer leur analyse
