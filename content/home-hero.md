@@ -3,7 +3,7 @@
 Nous avons choisi d’étudier la base de données du Armed conflict location and event data project (ACLED), considérée
 comme la base de données la plus importante et fiable en ce qui concerne les conflits dans le monde, et en particulier
 le nombre de morts. Le projet ACLED a ainsi pour objectif affiché de collecter les informations de politiques internes
-de plus de 70 pays, et de les classer par date, lieu, acteurs impliqués… dans différentes catégories représentants
+de plus de 70 pays, et de les classer par date, lieu, acteurs impliqués… dans différentes catégories représentant
 divers types d’évènements politiques violents. Grâce à cette codification, ACLED permet la visualisation de ces
 évènements sous forme de cartographies et d’analyses.
 
