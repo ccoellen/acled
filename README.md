@@ -4,6 +4,8 @@
 
 To edit the content of the pages, go to the content folder and edit the markdown files.
 
+To learn more about the markdown syntax, check out [this documentation](https://www.markdownguide.org/basic-syntax/)
+
 There are one markdown file per page except for the home page: `home-hero.md` is for top main part of the main page,
 and `home.md` is for the rest of the page.
 
