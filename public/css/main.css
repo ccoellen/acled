@@ -32,6 +32,10 @@ body {
     padding: 0;
 }
 
+hr {
+    margin: 3rem 0;
+}
+
 footer {
     font-size: 0.8rem;
     bottom: 0;
