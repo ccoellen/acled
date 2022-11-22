@@ -1,4 +1,4 @@
-![Caption: Visualisation de données d'ACLED par rapport aux fatalités dans les conflits par pays par an](https://user-images.githubusercontent.com/118550105/203336182-b1fd3e7f-1c21-4eae-9dd8-b1191f75895d.png)
+![caption: Visualisation de données d'ACLED par rapport aux fatalités dans les conflits par pays par an](https://user-images.githubusercontent.com/118550105/203336182-b1fd3e7f-1c21-4eae-9dd8-b1191f75895d.png)
 
 
 
