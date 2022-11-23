@@ -22,7 +22,7 @@ Thomas Calvo : Je suis chercheur à l’Institut de recherche stratégique de l�
 
 #### CC : En quoi ACLED vous aide dans ces activités de recherche ? 
 
-TC : Ça dépend des travaux que je fais et de ma recherche, mais ACLED est une source de données primaires ou secondaires dans l’analyse des violences que je fais, surtout dans l’analyse des violences liées aux conflits. J’ai plus tendance à utiliser ACLED que d’autres bases de données du même genre, par exemple celle du l’UCDP ou Global Terrorism Database, parce que c’est moins restrictif en termes de critères d’inclusion. J’utilise beaucoup ACLED pour ce genre de travaux. J’utilise beaucoup ce type de base de données pour ma recherche. 
+TC : Ça dépend des travaux que je fais et de ma recherche, mais ACLED est une source de données primaires ou secondaires dans l’analyse des violences que je fais, surtout dans l’analyse des violences liées aux conflits. J’ai plus tendance à utiliser ACLED que d’autres bases de données du même genre, par exemple celle du l’UCDP (Upsala Conflict Data Program) ou Global Terrorism Database, parce que c’est moins restrictif en termes de critères d’inclusion. J’utilise beaucoup ACLED pour ce genre de travaux. J’utilise beaucoup ce type de base de données pour ma recherche. 
 
 #### CC: Vous êtes également enseignant. Pour l’enseignement, là aussi ACLED peut vous servir ? 
 
